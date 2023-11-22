@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  /*background-image: url(../img/madera.jpg);*/
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-top: 5%;
+
+}
+section {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10vh;
+  margin-left: 5vw;
+  padding: 20px;
+  width: 40vw;
+  height: 40vh;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.pointer {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pointer:hover {
+  background-color: #2980b9;
+}
+
+form {
+  margin: 0;
+}
+
+div.select-container {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.pointer[type="submit"] {
+  width: 30%;
+}
+
+
+#form{
+  display: flex;
+}
+
+
+
+#divlibros{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10vh;
+  margin-left: 5vw;
+  padding: 20px;
+  width: 40vw;
+
+}
+
+#divlibros h2{
+  text-align: center;
+}
+
+
+.book-entry {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.book-entry:hover {
+  background-color: #e0e0e0;
+}
+
+.book-entry h2 {
+  font-size: 1.2em;
+  margin: 0;
+  color: #333;
+}
+
+.book-entry p {
+  margin: 5px 0;
+}
+
+.book-entry strong {
+  font-weight: bold;
+}
